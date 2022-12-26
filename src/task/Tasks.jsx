@@ -10,7 +10,6 @@ const reorder = (taskList, startIndex, endIndex) => {
 export const Tasks = ({ taskList, setTaskList }) => {
   const handleDragEnd = (result) => {
     // タスク入れ替え
-
     reorder(taskList, result.source.index, result.destination.index);
     setTaskList(taskList);
   };
