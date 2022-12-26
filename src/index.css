@@ -45,3 +45,33 @@ h1 {
   border: none;
   outline: none;
 }
+
+.taskAddInput {
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+}
+
+.taskBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 0;
+  margin-top: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px #e7dfdf;
+}
+
+.taskText {
+  margin-left: 12px;
+}
+
+.taskTrashButton {
+  margin-right: 9px;
+  border: none;
+  color: #c0ccd4;
+}
